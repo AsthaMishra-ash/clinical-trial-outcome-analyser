@@ -2,14 +2,13 @@
 
 An end-to-end data science project simulating a Phase II clinical trial analysis pipeline — built to demonstrate healthcare analytics skills for life sciences consulting roles.
 
----
 
 ## 📌 Project Overview
 
 This project analyses a simulated clinical trial dataset to:
 - Explore patient demographics and treatment patterns (EDA)
 - Predict treatment response using ML models (XGBoost + Logistic Regression)
-- Explain predictions using SHAP (SHapley Additive exPlanations)
+- Explain predictions using SHAP (Shapley Additive exPlanations)
 - Surface KPIs and insights via an interactive Streamlit dashboard
 
 ---
@@ -66,19 +65,19 @@ streamlit run dashboard.py
 
 ---
 
-## 📊 Dashboard Pages
+##  Dashboard Pages
 
 | Page | Description |
 |---|---|
-| 📊 Overview | KPI cards, dataset preview, trial summary |
-| 🔬 EDA | Response rates, age distribution, dosage trends, correlation heatmap |
-| 🤖 Model Performance | Accuracy, AUC, confusion matrix, model comparison |
-| 🧠 SHAP Explainability | Feature importance, SHAP value heatmap |
-| 🔮 Predict Patient | Enter patient profile → get response probability |
+|  Overview | KPI cards, dataset preview, trial summary |
+|  EDA | Response rates, age distribution, dosage trends, correlation heatmap |
+|  Model Performance | Accuracy, AUC, confusion matrix, model comparison |
+|  SHAP Explainability | Feature importance, SHAP value heatmap |
+|  Predict Patient | Enter patient profile → get response probability |
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
 | Model | Accuracy | AUC-ROC |
 |---|---|---|
@@ -107,10 +106,3 @@ Logistic Regression outperforms XGBoost on this clean, smaller tabular dataset �
 
 ---
 
-## 📝 Resume Bullet
-
-> *Built an end-to-end clinical trial analytics pipeline on simulated Phase II patient data; applied XGBoost and Logistic Regression (AUC: 0.71) with SHAP explainability to predict treatment response, and deployed a 5-page Streamlit dashboard surfacing efficacy KPIs for pharma decision support.*
-
----
-
-*Built as a portfolio project targeting life sciences analytics roles.*
